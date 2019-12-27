@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		07A7E3DA23B3569800512352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7E3D923B3569800512352 /* AppDelegate.swift */; };
-		07A7E3DC23B3569800512352 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7E3DB23B3569800512352 /* SceneDelegate.swift */; };
 		07A7E3DE23B3569800512352 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7E3DD23B3569800512352 /* ViewController.swift */; };
 		07A7E3E123B3569800512352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A7E3DF23B3569800512352 /* Main.storyboard */; };
 		07A7E3E323B3569B00512352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A7E3E223B3569B00512352 /* Assets.xcassets */; };
 		07A7E3E623B3569B00512352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A7E3E423B3569B00512352 /* LaunchScreen.storyboard */; };
 		07A7E3F123B3569B00512352 /* TestCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7E3F023B3569B00512352 /* TestCodableTests.swift */; };
+		07A7E3FC23B356CA00512352 /* SafeCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7E3FB23B356CA00512352 /* SafeCodable.swift */; };
+		07A7E40023B5FAA800512352 /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7E3FD23B5FAA800512352 /* AnyEncodable.swift */; };
+		07A7E40123B5FAA800512352 /* AnyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7E3FE23B5FAA800512352 /* AnyDecodable.swift */; };
+		07A7E40223B5FAA800512352 /* AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7E3FF23B5FAA800512352 /* AnyCodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +32,6 @@
 /* Begin PBXFileReference section */
 		07A7E3D623B3569800512352 /* TestCodable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCodable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A7E3D923B3569800512352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07A7E3DB23B3569800512352 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		07A7E3DD23B3569800512352 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07A7E3E023B3569800512352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07A7E3E223B3569B00512352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +40,10 @@
 		07A7E3EC23B3569B00512352 /* TestCodableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCodableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A7E3F023B3569B00512352 /* TestCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCodableTests.swift; sourceTree = "<group>"; };
 		07A7E3F223B3569B00512352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07A7E3FB23B356CA00512352 /* SafeCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeCodable.swift; sourceTree = "<group>"; };
+		07A7E3FD23B5FAA800512352 /* AnyEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyEncodable.swift; sourceTree = "<group>"; };
+		07A7E3FE23B5FAA800512352 /* AnyDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyDecodable.swift; sourceTree = "<group>"; };
+		07A7E3FF23B5FAA800512352 /* AnyCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyCodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +86,15 @@
 			isa = PBXGroup;
 			children = (
 				07A7E3D923B3569800512352 /* AppDelegate.swift */,
-				07A7E3DB23B3569800512352 /* SceneDelegate.swift */,
 				07A7E3DD23B3569800512352 /* ViewController.swift */,
 				07A7E3DF23B3569800512352 /* Main.storyboard */,
 				07A7E3E223B3569B00512352 /* Assets.xcassets */,
 				07A7E3E423B3569B00512352 /* LaunchScreen.storyboard */,
 				07A7E3E723B3569B00512352 /* Info.plist */,
+				07A7E3FB23B356CA00512352 /* SafeCodable.swift */,
+				07A7E3FF23B5FAA800512352 /* AnyCodable.swift */,
+				07A7E3FE23B5FAA800512352 /* AnyDecodable.swift */,
+				07A7E3FD23B5FAA800512352 /* AnyEncodable.swift */,
 			);
 			path = TestCodable;
 			sourceTree = "<group>";
@@ -200,9 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A7E40123B5FAA800512352 /* AnyDecodable.swift in Sources */,
+				07A7E40223B5FAA800512352 /* AnyCodable.swift in Sources */,
 				07A7E3DE23B3569800512352 /* ViewController.swift in Sources */,
+				07A7E40023B5FAA800512352 /* AnyEncodable.swift in Sources */,
+				07A7E3FC23B356CA00512352 /* SafeCodable.swift in Sources */,
 				07A7E3DA23B3569800512352 /* AppDelegate.swift in Sources */,
-				07A7E3DC23B3569800512352 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
